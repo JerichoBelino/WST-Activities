@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Activity 2</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      margin: auto;
+      border-spacing: 0;
+    }
+    td, th {
+      border: 2px solid #ff007f; 
+      padding: 0;
+      line-height: 0; /* removes spacing inside cells */
+      box-shadow: inset 0 0 6px #ff007f, 0 0 8px #00c3ff; /* glowing effect */
+    }
+    caption {
+      caption-side: top;
+      font-size: 0; 
+    }
+    body {
+      background: url("image/bg.jpg") no-repeat center center fixed;
+      background-size: cover;
+    }
+    h1 {
+      position: absolute;
+      top: 50%; 
+      left: 50%; 
+      transform: translate(-50%, -50%); 
+      color: #000; 
+      font-size: 48px; 
+      text-shadow: 2px 2px 5px white;
+    }
+    .banner-cell {
+      position: relative; 
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <table>
+    <caption>Anime Table</caption>
+    <!-- Banner -->
+    <tr>
+      <th colspan="4" class="banner-cell">
+        <img src="image/bannerkillua.jpg" alt="banner" width="1008" height="200">
+        <h1>Top Anime to Watch</h1>
+      </th>
+    </tr>
+
+    <!-- Top row 4pics -->
+    <tr>
+      <td><img src="https://upload.wikimedia.org/wikipedia/en/0/0b/Your_Name_poster.png" alt="Yourname" width="250" height="350"></td>
+      <td><img src="https://m.media-amazon.com/images/M/MV5BZmZkZjNhMWMtM2U0Mi00MjdlLTk3NmMtMTMwZjgwOTJmODMzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Black Clover" width="250" height="350"></td>
+      <td><img src="https://cdn.myanimelist.net/images/anime/1171/109222.jpg" alt="Jujutsu Kaizen" width="250" height="350"></td>
+      <td><img src="https://static.wikia.nocookie.net/witch-watch/images/4/4f/WW_Second_KV.png/revision/latest?cb=20250216175903" alt="Witch Watch" width="250" height="350"></td>
+    </tr>
+
+    <!-- Left, middle, right -->
+    <tr>
+      <td><img src="https://m.media-amazon.com/images/M/MV5BYTgyZDhmMTEtZDFhNi00MTc4LTg3NjUtYWJlNGE5Mzk2NzMxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Death Note" width="250" height="350"></td>
+      <td><img src="https://static.wikia.nocookie.net/voiceacting/images/d/d0/Naruto_Shippuden_new.JPG/revision/latest/scale-to-width-down/985?cb=20211031034133" alt="Naruto" width="250" height="350"></td>
+      <td colspan="2" rowspan="6"><img src="https://m.media-amazon.com/images/M/MV5BMTNjNGU4NTUtYmVjMy00YjRiLTkxMWUtNzZkMDNiYjZhNmViXkEyXkFqcGc@._V1_.jpg" alt="One Piece" height="755" width="500"></td>
+    </tr>
+
+    <tr>
+      <!-- 14 pics grid -->
+      <td rowspan="4">
+        <table>
+          <caption>Mini Anime Grid</caption>
+          <tr>
+            <th><img src="https://m.media-amazon.com/images/M/MV5BNzMwOGQ5MWItNzE3My00ZDYyLTk4NzAtZWIyYWI0NTZhYzY0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="One Punch Man" width="60" height="80"></th>
+            <td><img src="image/dragonb.webp" alt="Dragon Ball" width="60" height="80"></td>
+            <td rowspan="2" colspan="2"><img src="https://demonslayer-anime.com/portal/assets/img/loading/img_load_17.jpg" alt="Demon Slayer" width="121" height="161"></td>
+          </tr>
+          <tr>
+            <td><img src="image/Bleach.jpg" alt="Bleach" width="60" height="80"></td>
+            <td><img src="image/Hero.jpg" alt="My Hero Academia" width="60" height="80"></td>
+          </tr>
+          <tr>
+            <td><img src="image/Fullmetal.jpg" alt="Fullmetal Alchemist: Brotherhood" width="60" height="80"></td>
+            <td><img src="image/Psycho-Pass.jpg" alt="Psycho-Pass" width="60" height="80"></td>
+            <td><img src="image/Toradora!.jpg" alt="Toradora!" width="60" height="80"></td>
+            <td><img src="image/No Game No Life.jpg" alt="No Game No Life" width="60" height="80"></td>
+          </tr>
+          <tr>
+            <td rowspan="2" colspan="2"><img src="https://m.media-amazon.com/images/M/MV5BYzYxOTlkYzctNGY2MC00MjNjLWIxOWMtY2QwYjcxZWIwMmEwXkEyXkFqcGc@._V1_.jpg" alt="Hunter X Hunter" width="123" height="161"></td>
+            <td><img src="image/That Time I Got Reincarnated as a Slime.jpg" alt="That Time I Got Reincarnated as a Slime" width="60" height="80"></td>
+            <td><img src="image/Nichijou.jpg" alt="Nichijou" width="60" height="80"></td>
+          </tr>
+          <tr>
+            <td><img src="image/Horimiya.jpg" alt="Horimiya" width="60" height="80"></td>
+            <td><img src="image/Fruits Basket.jpg" alt="Fruits Basket" width="60" height="80"></td>
+          </tr>
+        </table>
+      </td>
+
+      <!-- Attack on Titan -->
+      <td>
+        <table>
+          <caption>Attack on Titan Seasons</caption>
+          <tr>
+            <th><img src="image/season-1.jpg" alt="AOT Season 1" width="123" height="201"></th>
+            <td><img src="image/season-2.jpg" alt="AOT Season 2" width="123" height="201"></td>
+          </tr>
+          <tr>
+            <td><img src="image/season-3.webp" alt="AOT Season 3" width="123" height="201"></td>
+            <td><img src="image/season-4.jpg" alt="AOT Season 4" width="123" height="201"></td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
